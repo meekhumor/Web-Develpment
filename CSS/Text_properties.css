@@ -1,0 +1,21 @@
+/* text-align
+font-weight
+text-decoration
+line-height
+letter-spacinng */
+
+h1{
+    text-align: center;
+    text-decoration: #ffee09 underline wavy;
+    font-family: Arial;
+}
+h2{
+    font-weight: 200;
+}
+a{
+    text-decoration: none;
+}
+#para1{
+    line-height: 3;
+    letter-spacing: 2px 
+}

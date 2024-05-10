@@ -1,0 +1,66 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1{ 
+    text-align: center;
+}
+#container{
+    background-color: #003049;
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    border: 5px solid #003049;
+    display: flex; 
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    align-content: center;
+}
+
+/* justify align in main axis wheras align items align in cross axis */
+
+#container div{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    font-size: 4em;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+/* The flex model consists of main axis and cross axis : main axis left to right : cross axis top to bottom*/
+
+div:nth-of-type(3){
+    align-self: flex-end;
+}
+div:nth-of-type(1){
+    flex-grow: 1;
+}
+
+/* Flex-basis: defines initial size of an element  before additional space is distributed
+Flex-Grow: controls the amount of available space an element should take up 
+Flex-shrink: if item is larger than container, they shrink accordingly to flex shrink */
+
+/* flex-grow | flex-shrink | flex-basis */
+
+main{
+    width: 80%;
+    margin: 0 auto ;
+    border: 5px solid black;
+    height: 500px;
+    display: flex;
+}
+
+main .sidebar{
+    background-color: #6930c3;
+    border: 2px solid white;
+    flex: 1 2 400px;
+}
+main .maincontent{
+    background-color: #80ffdb;
+    flex: 2 1  800px;
+}

@@ -1,0 +1,64 @@
+section{
+    background-color: grey;
+    width: 800px;
+    height: 800px;
+}
+
+div{
+    background-color: rgb(201, 105, 151);
+    width: 50%;
+    height: 50%;
+}
+
+h1{
+    font-size: 40px;
+    border: 2px solid blue;
+    line-height: 200%;
+    width:200px;
+}
+
+/* ems are another relarive unit just like % which are related to their parent element 
+font size is an inherited property, so if you don't declare it anywhere, it's getting it from the body (or the default, which is normally 16px)
+1em is same size that of parent element 
+2em is twice that of parent element */
+
+
+
+h2{
+    font-size: 2em;
+    margin-left: 1em;
+
+}
+article{
+    font-size: 15px;
+}
+p{
+    font-size: 1em;
+}
+button{
+    font-size: 1em;
+    padding: 0 2em;
+    border-radius: 1.5em;
+    background-color: darkgreen;
+    color: white;
+}
+
+/* em doesnt works well in nested that's why we use rem*/
+ul{
+    font-size: 1.5em;
+}
+/* rems always based on root element*/
+/* root element font size should be in percentage (mostly 100% or 110%) */
+
+#rem h2{
+    font-size: 3rem;
+}
+#rem ul{
+    font-size: 0.8rem;
+}
+
+/*
+General rule of thumb:
+font-size= rem
+padding and margin= em 
+width and height= em or percentage*/

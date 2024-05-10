@@ -1,0 +1,21 @@
+p{
+    color: red;
+}
+p{
+    color: purple;
+}
+
+/* Purple Wins */
+
+.post button:hover{
+    background-color: rgb(255, 0, 0);
+    color: aliceblue
+}
+ 
+button:hover {
+    background-color: olive;
+    font-size: 10px;
+}
+
+/* Specificity: Inline style > ID > Class > Element  */
+/*'!important' makes changes to all element  */

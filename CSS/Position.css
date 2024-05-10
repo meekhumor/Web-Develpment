@@ -1,0 +1,39 @@
+/* Position property tells how an element is positioned in document */
+
+div{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(33, 3, 58, 0.997);
+    display: inline-block;
+    margin: 10px;
+    border: 2px solid black;
+}
+
+#green{
+    background-color: rgb(110, 173, 110);
+}
+#static #green{
+    position: static;
+    top: 100px;
+}
+
+/* Static: elements is positioned according to the normal flow of document. The top, right, bottom and left have no effect. This is called default value.  */
+/* Relative: elements is positioned according to the normal flow of document and then offset relative to itself based on the value of top, right, bottom and left. */
+/* Absolute: placed relative to the initial containing block, its final position is determined by the value of top, right, bottom and left */
+
+#relative #green{
+    position: relative;
+    top: 120px;
+    left: 100px;
+}
+
+#absolute #green{
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+}
+#fixed #green{
+    position: fixed;
+    bottom: 10px;
+    left: 50px;
+}

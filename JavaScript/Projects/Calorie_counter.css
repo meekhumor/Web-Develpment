@@ -1,0 +1,72 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #1b1b32;
+    color: white;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.main{
+    margin: 6%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    height: 50rem;
+}
+.middle{
+    width: 40%;
+}
+
+.button{
+    font-weight: 500 !important;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.2rem;
+}
+.add-entry{
+    font-weight: 500 !important;
+    background-color: #fecc4c;
+    color: black;
+    display: inline;
+    border: 3px solid #feb83b;
+    font-size: 1.2rem;
+    padding: 0.1rem 0.3rem;
+}
+.calculate{
+    margin: 0.5rem 0.3rem;
+    padding: 0.2rem 0.3rem;
+    background-color: #fecc4c;
+    color: black;
+    border: 3px solid #feb83b;
+}
+.clear{
+    margin: 0.5rem 0.3rem;
+    padding: 0.2rem 0.3rem;
+    background-color: #fecc4c;
+    color: black;
+    border: 3px solid #feb83b;
+}
+.lower{
+    margin: 1rem 0.3rem;
+}
+.select-container{
+    display: inline-flex;
+}
+.select-box{
+    padding: 0.2rem 0.2rem;
+    width: 10rem;
+    height: 2rem;
+    font-size: 1.2rem;   
+}
+.input-budget{
+    height: 1.5rem;
+    padding: 0.1rem 0.5rem;
+    font-size: 1.2rem;   
+    width: 13rem;
+}
+.budget{
+    margin: 1rem 0;
+}

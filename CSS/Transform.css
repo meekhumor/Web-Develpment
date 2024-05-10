@@ -1,0 +1,43 @@
+h1{
+    border: 5px solid black;
+    margin: 20px auto;
+    width: 300px;
+    padding: 0.7em;
+    color: white;
+    font-size: 1.8em;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+}
+h1:nth-of-type(4n+1){
+    background-color: rgb(16, 116, 79);
+}
+h1:nth-of-type(4n+2){
+    background-color: rgb(206, 216, 10);
+}
+h1:nth-of-type(4n+3){
+    background-color: rgb(206, 125, 20);
+}
+h1:nth-of-type(4n){
+    background-color: rgb(210, 69, 38);
+}
+
+section:first-of-type h1:nth-of-type(1){
+    transform-origin: bottom right;
+    transform: rotate(45deg);
+}
+section:first-of-type h1:nth-of-type(2){
+    transform: scale(0.7); /*it shrinks or grow*/
+}
+section:first-of-type h1:nth-of-type(3){
+    transform: translateX(200px);
+}
+section:first-of-type h1:nth-of-type(4){
+    transform: translate(-150px,50px);
+}
+section:nth-of-type(2) h1:nth-of-type(1){
+    transform: skew(30deg);
+}
+section:nth-of-type(2) h1:nth-of-type(2){
+    transform: rotate(20deg) scale(0.6);
+}

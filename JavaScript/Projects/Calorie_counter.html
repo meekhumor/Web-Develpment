@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calorie Counter</title>
+    <link rel="stylesheet" href="Calorie_counter.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="title">
+        <h1>Calorie Counter</h1>
+      </div>
+      <div class="budget">
+        <label for="bud">Budget :</label>
+        <input
+          type="number"
+          placeholder="Daily calorie budget"
+          id="bud"
+          class="input-budget"
+        />
+      </div>
+      <div class="middle">
+        <fieldset id="break">
+          <legend>Breakfast</legend>
+        </fieldset>
+        <fieldset id="lunch">
+          <legend>Lunch</legend>
+        </fieldset>
+        <fieldset id="dinner">
+          <legend>Dinner</legend>
+        </fieldset>
+        <fieldset id="snacks">
+          <legend>Snacks</legend>
+        </fieldset>
+        <fieldset id="exercise">
+          <legend>Exercise</legend>
+        </fieldset>
+      </div>
+      <div class="lower">
+        <label for="add">Add Food / Exercise :</label>
+        <div class="select-container">
+          <select name="add" class="select-box">
+            <option value="Breakfast">Breakfast</option>
+            <option value="Lunch">Lunch</option>
+            <option value="Dinner">Dinner</option>
+            <option value="Snacks">Snacks</option>
+            <option value="Exercise">Exercise</option>
+          </select>
+        </div>
+        <div class="add-entry">Add Entry</div>
+      </div>
+      <div class="button">
+        <div class="calculate">Calculate Remaining Calories</div>
+        <div class="clear">Clear</div>
+      </div>
+    </div>
+    <script src="Calorie_counter.js"></script>
+  </body>
+</html>

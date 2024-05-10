@@ -1,0 +1,60 @@
+/* This box model contains width, heig1```ht, padding, border, margin.  */
+/* Padding is adding space to content area */
+/* Margin is similar to padding but from outside */
+div{
+    width: 200px;
+    height: 200px;
+    font-size: 100%;
+
+}
+h1{
+    background-color: pink;
+    width:200px;
+    border-width: thin;
+    border-color: black;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+span{
+    margin: 50px 0 0 20px;
+}
+
+/* border-width, border-style, border-color  */
+
+#one{
+    background-color: orange;
+    border-width: 2px;
+    border-color:black;
+    border-style: solid;
+    padding-top: 20px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    /* box sizing is border box then the exact size 200*200 will be used to integrate the border as well as text in it  */
+}
+#two{
+    background-color: white;
+    border-width: 2px;
+    border-color:black;
+    border-style: groove;
+    border-left-width: 5px ;
+    border-left-color: blue ;
+    padding-top: 20px;
+    padding-left: 20px;
+    
+}
+#three{
+    background-color: green;
+    border: 3px solid black; /* width | style | color */
+    border-radius: 10px 100px / 120px ; /*top-left | top-right | bottom-right | bottom-left*/
+    padding: 20px 0 0 20px; /*top | right | bottom | left */
+    margin: 5px 1px 0 20px; /*top | right | bottom | left */
+}
+
+button{
+    padding: 10px 10px 10px 10px;
+    background-color: blue;
+    color: whitesmoke;
+} 
+

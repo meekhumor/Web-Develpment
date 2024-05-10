@@ -1,0 +1,34 @@
+/* Display property
+inline:- width & height are ignored. margin & padding push elements away horizontally but not vertically.
+block:- block elements break the flow of a document. width,height,margin,&padding are respected.
+inline-block:- behave like an inline block expect width, height, margin & padding are respected */
+
+h1{
+    background-color: gold;
+    border: 1px solid black;
+    display: inline;
+}
+
+/* h1 is blockline element by using display we can make it inline */
+
+span{
+    background-color: paleturquoise;
+    border: 1px solid black;
+    display: block;
+}
+#one{
+    background-color: palevioletred;
+    border: 1px solid black;
+    width: 500px;
+    display: inline;
+    padding: 100px ;
+}
+
+div{
+    width: 200px;
+    height: 200px;
+    background-color: olive;
+    border: 5px solid black;
+    display: inline-block;
+    margin: 20px;
+}

@@ -1,0 +1,20 @@
+/* * Universal selector: selects everything
+h1 Heading selector: selects all h1
+# ID selector: selects the element with id 
+. Class selector: selects the element with class 
+li a Descendant selector: Selects all <a>'s that are nested inside on <li> */
+
+span{
+
+    color: white;
+}
+
+#para1{
+    background-color: teal;
+}
+a{
+    color: green
+}
+li a{
+    color: teal;
+}

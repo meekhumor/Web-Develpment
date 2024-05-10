@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="Table_Tennis.css" />
+  </head>
+  <body>
+    <div>
+      <header>
+        <img
+          src="https://images.unsplash.com/photo-1576617497557-22895ee5930b?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt="Table Tennis"
+        />
+        <p>Table Tennis Score Keeper</p>
+        <hr />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+          rel="stylesheet"
+        />
+      </header>
+      <main>
+        <p id="score"><span id="num1">0</span> to <span id="num2">0</span></p>
+        <p id="text">Use the buttons below to keep score.</p>
+        <form action="/tacos">
+          <label for="points"><b>Playing To</b></label>
+          <select id="points">
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+          </select>
+        </form>
+      </main>
+      <footer>
+        <button id="id1">+1Player One</button>
+        <button id="id2">+1Player Two</button>
+        <button id="id3">Reset</button>
+      </footer>
+      <script src="Table_Tennis.js"></script>
+    </div>
+  </body>
+</html>

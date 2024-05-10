@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>Validation demo</h2>
+    <form action="/dummy">
+      <label for="first">Enter First Name: </label>
+      <input
+        type="text"
+        name="first"
+        id="first"
+        minlength="3"
+        maxlength="5"
+        required
+      />
+      <button>Submit</button>
+      <br />
+    </form>
+    <form action="/dummy">
+      <label for="email">Enter Email: </label>
+      <input type="email" name="email" id="email" required />
+      <button>Submit</button>
+    </form>
+  </body>
+</html>

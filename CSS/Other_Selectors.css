@@ -1,0 +1,37 @@
+#button2:hover{
+    background-color: Black;
+    color: white;
+}
+h5{
+    color: lightseagreen;
+}
+button{
+    background-color: lightblue;
+}
+span{
+    background-color: red;
+    color: white;
+    font-size: smaller;
+}
+
+
+/* if i want to change adjacent tags then adjacent selector is used */
+
+/* h3 + button {
+    color: magenta;
+    font-size: 20px;
+} */
+
+/* Select only li that are direct child of div */
+
+nav > ul> li{
+    color: red;
+}
+
+/* Select all input elements where the type attribute is set to "text" */
+
+input[type="text"]{
+    width : 300px;
+    color: cyan;
+}
+

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Form Demo</h1>
+
+    <form action="/tacos">
+      <input type="text" placeholder="username" />
+      <input type="password" placeholder="password" />
+      <input type="color" />
+      <input type="date" />
+      <input type="file" />
+      <input type="month" />
+      <input type="number" min="1" max="10" />
+    </form>
+
+    <h2>More inputs!</h2>
+    <form action="/birds">
+      <input type="checkbox" name="agree_tos" id="agree" checked />
+      <label for="agree">I agree to everything</label>
+      <button>submit</button>
+    </form>
+    <form action="/maintanance_drone">
+      <input type="radio" name="Airplane" id="huey" />
+      <label for="huey">Drone</label>
+      <br />
+      <input type="radio" name="Airplane" id="duey" />
+      <label for="duey">Airplane</label>
+      <br />
+      <input type="radio" name="Airplane" id="luey" />
+      <label for="luey">Helicopter</label>
+      <br />
+      <button>Submit</button>
+    </form>
+
+    <form action="/tacos">
+      <p>Audio settings</p>
+      <input type="range" id="volume" name="volume" min="0" max="10" />
+      <label for="volume">Volume</label>
+      <button>Submit</button>
+    </form>
+  </body>
+</html>
+
+<!-- <input>: The input element is used to create a variety of different form controls
+we have 20+ possible types of inputs, ranging from data picker to checkboxes -->

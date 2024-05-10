@@ -1,0 +1,22 @@
+body{
+  font-family: "Nunito", sans-serif;
+  background-color: #f5d9d5;
+}
+
+
+.navbar{
+  background-color: #dec0de !important;
+  color: black;
+  padding: 0 1rem;
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
+.navbar-brand{
+  color: #eb2b39 !important;
+  font-size: 1.5rem ;
+}
+
+span{
+  color: #da3944;
+}
