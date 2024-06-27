@@ -6,6 +6,11 @@ img{
     background-repeat: no-repeat;
 }
 
+/* cover: it will zoom image to fit the screen */
+/* cover-fit: it will zoom image to fit the screen and keep aspect ratio */
+/* cover-stretch: it will stretch image to fit the screen */
+/* contain: it will fit image leaving space to the screen and keep aspect ratio */
+
 nav{
     text-transform: uppercase;
     border-bottom: 2px solid #f1f1f1;

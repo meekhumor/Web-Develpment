@@ -12,6 +12,11 @@ section{
     margin: 0 auto;
 }
 
+/* cover: it will zoom image to fit the screen */
+/* cover-fit: it will zoom image to fit the screen and keep aspect ratio */
+/* cover-stretch: it will stretch image to fit the screen */
+/* contain: it will fit image leaving space to the screen and keep aspect ratio */
+
 h1{
     font-size: 100px;
     color: white;

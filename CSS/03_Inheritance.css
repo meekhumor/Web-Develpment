@@ -1,24 +1,25 @@
-body{
-    background-color: blue;
-    color: white;
+body {
+  background-color: blue;
+  color: white;
 }
-h1{
-    background-color: red;
+h1 {
+  background-color: red;
 }
-nav{
-    color: lightcoral;
+nav {
+  color: lightcoral;
 }
-a{
-    color: lightgreen;
-    text-decoration: none;
+a {
+  color: lightgreen;
+  text-decoration: none;
 }
-form{
-    color: beige;
+form {
+  color: rgb(0, 130, 0);
 }
-input::placeholder{
-    color: aqua;
+input::placeholder {
+  color: aqua;
 }
-button, input{
-    color:burlywood;
-    background-color: black;
+button,
+input {
+  color: burlywood;
+  background-color: black;
 }
