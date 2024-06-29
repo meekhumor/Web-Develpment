@@ -13,5 +13,3 @@ app.get('/', (req, res) => {
 // res: isme controls hote hai jinke basis pe hum server se response bhej sakte hai
 
 app.listen(3000)
-
-// To run the file : Go to file path and type {npx nodemon Intro.js}
