@@ -1,0 +1,41 @@
+* Install mongodb
+* Install mongoosejs : `npm i mongoose`
+* Require and setup connection
+* Make schema <!-- Basic architecture of every record-->
+* Create model and export
+
+* Boiler plate
+    ```
+    const mongoose = require("mongoose");
+    mongoose.connect("mongodb://localhost:27017/DBname")
+
+    const userSchema = mongoose.Schema({
+        username: String,
+        email: String,
+        password: String,
+        role: String
+    })
+
+    module.exports = mongoose.model("collectionName", userschema);
+
+    ```
+# Sessions & Cookies
+
+* Installation: npm i express-session
+* Require session in app.js: `var session = require("express-session")`
+* Use session in app.js:
+    ```
+    app.use(session({
+        resave: false,
+        saveUninitialized: false,
+        secret: "secret"
+    }))
+
+    ```
+* Now in any route you can create a session using `req.session.anyname = "anyvalue"`
+
+<!--
+    "resave: false" session ki value change nhi hui to fir se save nhi hoga
+    "saveUnintiialized: false" koi bhi random data save nhi hoga
+    "secret: "secret"" secret code by which it will get encrypted
+    -->

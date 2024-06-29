@@ -16,3 +16,7 @@
 //  - It's easy to get started with (though it can be tricky to truly master)
 //  - It plays particularly well with JavaScript
 //  - Its popularity also means there is a strong community of developers using Mongo.
+
+// Session & Cookiess
+
+// Session: Kisi global server pe apne data ko store krna

@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-const userModel = require('./users');
+const userModel = require('./users'); // Importing the architecture of model from users folder
 
 router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
