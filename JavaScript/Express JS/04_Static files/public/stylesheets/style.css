@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Days+One&display=swap");
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  font-family: "Days One", arial, sans-serif;
+  background: #161616;
+  font-size: 1em;
+  display: grid;
+  place-content: center;
+}
+
+main {
+  width: 100%;
+  width: 60vmin;
+  max-width: 500px;
+  height: 90vh;
+  margin: 0 auto;
+  padding: 1vmin;
+  position: relative;
+}
+
+main #list-view {
+  height: 100%;
+  /*overflow-y: scroll;*/
+  overflow-y: visible;
+  margin: 0 1vmin;
+}
+
+main ul,
+main li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+main ul {
+  counter-reset: index;
+}
+
+main li {
+  height: auto;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.name {
+  position: absolute;
+  color: #161616;
+  background: #fff;
+  padding: 0vmin 1vmin;
+  bottom: 2vmin;
+  box-shadow: 0 0 0 4px #fff, 5px -5px 4px 4px #0004;
+  left: -1vmin;
+  mix-blend-mode: screen;
+  mix-blend-mode: hard-light;
+  border-radius: 0 1px 1px 0;
+}
+
+.name:before {
+  content: "";
+  border: 0.55vmin solid red;
+  position: absolute;
+  left: -4px;
+  top: -1.5vmin;
+  border-color: #fff0 #999 #999 #fff0;
+}
+
+main li img {
+  width: 100%;
+  height: auto;
+  box-shadow: 0 0 0 4px #fff;
+  border-radius: 1px;
+}
+
+main li:first-child img,
+main li:last-child img {
+  opacity: 0;
+}
+
+main li:first-child {
+  height: 18vh;
+  margin: 0;
+}
+
+main li:last-child {
+  height: 0vh;
+  margin: 0;
+}
+
+@supports (animation-timeline: view()) {
+  @keyframes fade-in-on-enter--fade-out-on-exit {
+    entry 0% {
+      opacity: 0;
+      transform: translateY(150vh) rotate(35deg);
+    }
+    entry 100% {
+      opacity: 1;
+      transform: translateY(0) rotate(0deg);
+    }
+    exit 0% {
+      opacity: 1;
+      transform: translateY(0) rotate(0deg);
+    }
+    exit 100% {
+      opacity: 0;
+      transform: translateY(-150vh) rotate(-35deg);
+    }
+  }
+
+  #list-view > ul > li {
+    animation: linear fade-in-on-enter--fade-out-on-exit;
+    animation-timeline: view();
+  }
+}
