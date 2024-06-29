@@ -31,3 +31,13 @@
 - Run the server: cd projectname && npm i
 - Run the server: npx nodemon (dont change js name)
 - Open http://localhost:3000/ in your browser
+
+# Flash Messages
+
+- Install and setup express-session: `npm i express-session` <!--For setup, refer process.md of Mongo_DB folder-->
+- Install connect-flash: `npm i connect-flash`
+- Require connect-flash in app.js
+- Put connect-flash in app.use function
+
+<!--Flash messages ka matlab server ke kisi route mein koi data banana and uss data ko dusre route pe use karna -->
+
