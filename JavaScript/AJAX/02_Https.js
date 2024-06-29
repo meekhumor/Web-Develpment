@@ -2,7 +2,7 @@
 
 // GET: used to get or retrieve information
 // POST: used to send or post data
-// PUT: 
+// PUT:
 // PATCH
 // DELETE: used to delete data
 // HEAD

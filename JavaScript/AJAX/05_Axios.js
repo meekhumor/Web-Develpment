@@ -21,14 +21,14 @@ getStarWarsPerson(15); */
 // -------------------------------------------------------------------------------------------------------------------------------------------------
 // Setting Header with axios  
 
-const jokes = document.querySelector("#jokes");
+const ul = document.querySelector("ul");
 const button = document.querySelector("button");
 
 const addNewJokes = async () => {
-  const jokeText = await getDadJokes();
+  const jokeText = await getDadJokes(); // call for dad jokes
   const newLI = document.createElement("LI");
   newLI.append(jokeText);
-  jokes.append(newLI);
+  ul.append(newLI);
 };
 const getDadJokes = async () => {
   const config = { headers: { Accept: "application/json" } };
@@ -36,4 +36,4 @@ const getDadJokes = async () => {
   return res.data.joke;
 };
 
-button.addEventListener("click", addNewJokes);
+button.addEventListener("click", addNewJokes); // appendending a dad joke to list after every click

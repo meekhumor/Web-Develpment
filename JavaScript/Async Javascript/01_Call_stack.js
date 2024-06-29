@@ -1,5 +1,5 @@
 // Call Stack: the mechanism the JS interpreter uses to keep track of its place in a script that calls multiple function
-// How 'JS' knows wha function is currently being run and what function  are called from within that function.
+// How 'JS' knows what function is currently being run and what function  are called from within that function.
 
 // How it works: 
 

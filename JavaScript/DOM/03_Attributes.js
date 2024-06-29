@@ -21,7 +21,7 @@ newImg.src = 'https://images.unsplash.com/photo-1711499936918-f89154f501af?q=80&
 document.body.appendChild(newImg)
 
 // -append('text'): it adds new text to last term in element
-documentdy.querySelector('p').append('hi')
+document.querySelector('p').append('hi')
 
 // insertAdjacentElement('position', 'text'): it add new adjacent to given position in element 
     const h3 = document.querySelector('h3');

@@ -38,7 +38,7 @@ fakeRequestCallback('book.com',     // calling a function
 // After promises
 
 const fakeRequestPromise = (url) => {
-    return new  Promise((resolve, reject) => {
+    let p = new  Promise((resolve, reject) => {
 
         const delay = Math.floor(Math.random() * 4500) + 500;  // random delay value are thrown 
         setTimeout(() => {
@@ -51,6 +51,7 @@ const fakeRequestPromise = (url) => {
             
         },delay)
     })
+    return p
 }
 
 // fakeRequestPromise('yelp.com/api/coffee')
@@ -72,7 +73,7 @@ const fakeRequestPromise = (url) => {
 
 // Magic of promises
 
-fakeRequestPromise('yelp.com/api/coffee/page1')
+fakeRequestPromise('yelp.com/api/coffee/page1') // function call k sath then and catch
 .then((data) =>{
     console.log('Promise Approved!(1st)', data); // when resolves runs
     return fakeRequestPromise('yelp.com/api/coffee/page2')
