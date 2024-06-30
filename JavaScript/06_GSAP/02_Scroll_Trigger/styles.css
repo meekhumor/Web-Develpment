@@ -1,0 +1,44 @@
+*{
+	margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+html, body{
+    background-color: black;
+    color: aliceblue;
+    height: 100%;
+    width: 100%;
+}
+
+#page1{
+    background-color: lightblue;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#page2{
+    background-color: rgb(128, 197, 220);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+#page3{
+    background-color: rgb(63, 182, 221);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+#box{
+    height: 300px;
+    width: 300px;
+    background-color: crimson;
+}
