@@ -1,3 +1,5 @@
+// Rest: Representation State Transfer
+
 // GET /users - list all users
 // GET /users/:id - get user by id
 // POST /users - create a new user

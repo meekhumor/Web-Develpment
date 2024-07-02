@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 
-const users = require("./MOCK_DATA.json");
+const users = require("./MOCK_DATA.json"); // Mock Dataset
 
 //-------------------Read-------------------------
 app.get("/users", (req, res) => {

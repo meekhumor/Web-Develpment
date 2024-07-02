@@ -1,33 +1,40 @@
-// Node - a javascript runtime.
+// Node - a javascript runtime environment
 //   Node. js provides a runtime environment outside of the browser. 
 //   It's also built on the Chrome V8 JavaScript engine. 
 //   This makes it possible to build back-end applications using the same JavaScript programming language you may be familiar with 
   
-  
-//   What do people build with node ?
-//   - web serves 
-//   - command line tools 
-//   - native apps (vs code is a node app!)
-//   - video games 
-//   - drone software 
-//   - a whole lot more!
+
+// NPM
+
+// npm is node ka playstore jahape bohot saare packages milte hai
+// Example:
+// npm package for text -> voice (just like templates)
+// Note: If we want to run our own package , we need to first write it in script section of package.json then type npm run <package-name>
+
 
 // File system
 
-// All file system have synchronous and asynchronous forms.
-/* In busy processes , use the asynchronous versions of calls , 
-the synchronous versions will block the entire process until they complete halting all connections. */
+// In documentation you will find file system operations. Some impostant operations are:
+// fs.writeFile(path, data, callback)
+// fs.appendFile(path, data, callback)
+// fs.unlink(path, callback)
+// fs.rename(oldPath, newPath, callback)
+// fs.copyFile(src, dest, callback)
 
-// The node:fs module enables interacting with the file system in a way modeled on standard POSIX functions.
-// refer boilerplate.js
+
+// Http 
+
+// In documentation you will find file system operations. Some impostant operations are:
+// http.createServer(function(res,req){})
+
 
 // Processes and argv
 
 // The process object provides information about, and control over, the current Node.js process.
-//https://nodejs.org/docs/v20.12.1/api/process.html#process - learn all about process.
-//process.version : version of node js
-//process.release : specific node release that we are using 
-//process.cwd() : path of current directory 
+// https://nodejs.org/docs/v20.12.1/api/process.html#process - learn all about process.
+// process.version : version of node js
+// process.release : specific node release that we are using 
+// process.cwd() : path of current directory 
 
 // process.argv: The process.argv property returns an array containing the command-line arguments passed when the Node.js process was launched.
 // The first element will be process.execPath. See process.argv0 if access to the original value of argv[0] is needed.

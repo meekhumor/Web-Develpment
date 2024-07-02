@@ -19,7 +19,7 @@
     passport.deserializeUser(usersRouter.deserializeUser());
 
     ```
-- Setup users.js properly
+- Write code in users.js
     ```
     const mongoose = require('mongoose');
     const passportLocalMongoose = require("passport-local-mongoose")
