@@ -27,4 +27,5 @@
 // GET: retrieve the resource from database
 // POST: create a resource on database
 // PUT: update existing resource on database
+// PATCH: update partial details of resource
 // DELETE: delete existing resource from database
