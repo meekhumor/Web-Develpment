@@ -12,6 +12,7 @@
     "ejs": "^3.1.10",
     "express": "^4.19.2",
     "path": "^0.12.7",
+    "rest_comments": "file:",
     "uuid": "^9.0.1"
   }
 }
