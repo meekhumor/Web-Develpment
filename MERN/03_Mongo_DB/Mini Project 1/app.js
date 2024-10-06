@@ -15,7 +15,9 @@ app.use(cookieParser());
 app.get('/', (req, res) => {
     res.render('index');
 });
-
+app.get('/test', (req, res) => {
+    res.render("test")
+})
 app.get('/login', (req, res) => {
     res.render('login');
 });
@@ -48,6 +50,10 @@ app.get('/edit/:id', isLoggedIn, async (req, res) => {
 })
 
 
+
+app.post('/upload', (req, res) => {
+    console.log(req.file)
+})
 app.post('/update/:id', isLoggedIn, async (req, res) => {
     let post = await postModel.findOneAndUpdate({_id: req.params.id}, {content: req.body.content});
     res.redirect("/profile")
