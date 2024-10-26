@@ -12,14 +12,16 @@
    - Run `python manage.py migrate`
  3. After making templates folder include its path in the `settings.py` file.
  4. Attach `LOGIN_URL = "/login/"` in `settings.py` file to redirect to the login page.
+ 5. Add `tests.py` file in the basics folder for testing.
 
 
-- Make a `views.py` file in the component folder [Rendering]
-- Make a `urls.py` file in the component folder [Routing]
-- Make a `models.py` file in the component folder [Database]
-- Make a `templates` folder in the component folder [Templates]
+- Make a `views.py` file in the basics folder [Rendering]
+- Make a `urls.py` file in the basics folder [Routing]
+- Make a `models.py` file in the basics folder [Database]
+- Make a `templates` folder in the basics folder [Templates]
 
 - Create a `form.py` file in articles folder
+
 
 ## To run the code in production env
 
@@ -71,5 +73,5 @@ if POSTGRES_READY:
         }
     }
 ```
-8. Deploy
+8. Deploy `https://www.codingforentrepreneurs.com/blog/deploy-django-to-digitalocean-app-platform`
 
