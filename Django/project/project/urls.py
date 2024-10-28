@@ -1,5 +1,5 @@
 """
-URL configuration for basics project.
+URL configuration for project project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/5.1/topics/http/urls/
@@ -15,27 +15,12 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include
+from django.conf import settings
+from django.conf.urls.static import static
 
-from .views import home_view
-from accounts.views import (
-    login_view,
-    logout_view,
-    register_view,
-)
-from articles.views import (
-    article_search_view,
-    article_create_view,
-    article_detail_view,
-)
 
 urlpatterns = [
-    path("", home_view),
-    path("articles/", article_search_view),
-    path("articles/create/", article_create_view),
-    path("articles/<slug:slug>/", article_detail_view, name='article-detail'),
     path("admin/", admin.site.urls),
-    path("login/", login_view),
-    path("logout/", logout_view),
-    path("register/", register_view),
-]
+    path("tweet/", include("tweet.urls")),
+] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

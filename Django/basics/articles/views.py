@@ -37,10 +37,10 @@ def article_create_view(request, id=None):
 
     return render(request, "articles/create.html", context = context)
 
-def article_detail_view(request, id=None):
+def article_detail_view(request, slug=None):
     article_obj = None
-    if id is not None:
-        article_obj = Article.objects.get(id=id)
+    if slug is not None:
+        article_obj = Article.objects.get(slug=slug)
 
     context = {
         "object": article_obj,

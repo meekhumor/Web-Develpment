@@ -1,3 +1,5 @@
+`https://docs.chaicode.com/getting-started-with-django/`
+
 ### Process
 
 1. cd to folder
