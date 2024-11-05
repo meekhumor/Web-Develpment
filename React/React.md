@@ -12,3 +12,5 @@
 7. Make `component` folder in src [reusability]
     - You can create jsx files in it and use them again and again
     - `rfce` for boilerplate 
+
+8. For Routing, `npm install react-router-dom`
