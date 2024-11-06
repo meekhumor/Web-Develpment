@@ -13,3 +13,4 @@ heros.map(hero => {
     return `hero is ${hero}`
 })
 
+export {}
