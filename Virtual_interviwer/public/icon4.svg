@@ -1,0 +1,23 @@
+<svg width="148px" height="126px" viewBox="0 0 148 126" fill="none" xmlns="http://www.w3.org/2000/svg" transform="rotate(0) scale(1, 1)">
+  <g id="iconfinder___library_book_shelf_archive_3371910 copy 2">
+    <circle id="Mask" cx="52.769" cy="76.354" r="48.906" fill="#edeff3" />
+    <g id="Mask group">
+      <mask id="mask0_3_6434" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="148" height="126">
+        <path id="Mask_2" d="M147.419 56C147.419 83.01 79.779 125.26 52.769 125.26C25.759 125.26 3.863 103.364 3.863 76.354C3.863 49.344 -10.5911 0 16.419 0C43.429 0 147.419 28.99 147.419 56Z" fill="#ffffff" />
+      </mask>
+      <g mask="url(#mask0_3_6434)">
+        <g id="iconfinder___under_construction_website_crane_development_4737801">
+          <path id="Path" d="M23.5112 128.52V36.9718L25.3988 18.0958H36.7244L38.612 36.5943V128.52" stroke="#dbe2ea" stroke-width="5.6628" />
+          <path id="Path_2" d="M77.3078 49.2412V37.9156" stroke="#dbe2ea" stroke-width="3.7752" stroke-linejoin="round" />
+          <path id="Path_3" fill-rule="evenodd" clip-rule="evenodd" d="M102.79 36.9718H6.52277V29.4214L23.5112 18.0958H38.612L102.79 29.4214V36.9718Z" stroke="#dbe2ea" stroke-width="5.6628" />
+          <path id="Path_4" d="M39.5558 120.97L23.8887 105.68L38.0457 91.5235L23.8887 77.1777L37.6682 63.3982L24.6437 50.3738L54.279 20.9272L70.5124 37.3493L81.2717 26.7788" stroke="#dbe2ea" stroke-width="3.7752" stroke-linejoin="round" />
+          <path id="Path_5" d="M103.734 96.4312H50.8814C49.7488 96.4312 48.9938 95.6762 48.9938 94.5436V54.904C48.9938 53.7715 49.7488 53.0164 50.8814 53.0164H103.734C104.867 53.0164 105.622 53.7715 105.622 54.904V94.5436C105.622 95.6762 104.867 96.4312 103.734 96.4312Z" fill="#32acfc" />
+          <circle id="Oval" cx="75.9865" cy="87.4645" r="1.8876" fill="#edeff3" />
+          <path id="Path_6" d="M71.645 76.1389C71.645 73.4962 74.0988 71.4199 77.119 71.9862C78.6291 72.3637 79.9504 73.685 80.3279 75.1951C80.8942 78.0265 78.8178 80.4804 75.9864 80.4804V83.6893" stroke="#edeff3" stroke-width="3.7752" />
+          <path id="Path_7" d="M105.622 54.904C105.622 53.7715 104.867 53.0164 103.734 53.0164H50.8814C49.7488 53.0164 48.9938 53.7715 48.9938 54.904V64.342H105.622V54.904Z" fill="#000f38" />
+          <path id="Path_8" d="M54.6566 58.6792H73.5326" stroke="#edeff3" stroke-width="3.7752" stroke-dasharray="3.78 3.78" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

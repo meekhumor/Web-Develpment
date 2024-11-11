@@ -1,0 +1,23 @@
+<svg width="98px" height="126px" viewBox="0 0 98 126" fill="none" xmlns="http://www.w3.org/2000/svg" transform="rotate(0) scale(1, 1)">
+  <g id="iconfinder___library_book_shelf_archive_3371910">
+    <circle id="Mask" cx="48.906" cy="76.354" r="48.906" fill="#ffffff" />
+    <g id="Mask group">
+      <mask id="mask0_3_6448" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="98" height="126">
+        <path id="Mask_2" d="M97.812 76.354C97.812 103.364 75.916 125.26 48.906 125.26C21.896 125.26 0 103.364 0 76.354C0 49.344 2.41797 0 29.428 0C56.438 0 97.812 49.344 97.812 76.354Z" fill="#ffffff" />
+      </mask>
+      <g mask="url(#mask0_3_6448)">
+        <g id="iconfinder___library_book_shelf_archive_3371910_2">
+          <rect id="Rectangle" x="3.42798" y="110.885" width="108.552" height="20.3535" fill="#dbe2ea" />
+          <rect id="Rectangle_2" x="10.2125" y="27.4707" width="18.092" height="83.4138" fill="#d1dae4" />
+          <rect id="Rectangle_3" x="10.2125" y="52.0857" width="18.092" height="13.569" fill="#000f38" />
+          <rect id="Rectangle_4" x="28.3044" y="43.0397" width="20.3535" height="67.8449" fill="#32acfc" />
+          <path id="Path" d="M35.0889 54.3472H41.8734" stroke="#ffffff" stroke-width="5.05603" stroke-linecap="square" />
+          <path id="Path_2" d="M35.0889 65.6547H41.8734" stroke="#ffffff" stroke-width="5.05603" stroke-linecap="square" />
+          <rect id="Rectangle_5" x="44.6683" y="18.9812" width="10.1767" height="93.6258" transform="rotate(-10.5795 44.6683 18.9812)" fill="#000f38" />
+          <rect id="Rectangle_6" x="61.8696" y="54.9199" width="15.1513" height="63.0927" transform="rotate(-28.3283 61.8696 54.9199)" fill="#32acfc" />
+          <rect id="Rectangle_7" x="73.5103" y="65.9294" width="10.1762" height="10.1762" transform="rotate(-28.3283 73.5103 65.9294)" fill="#1b262c" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

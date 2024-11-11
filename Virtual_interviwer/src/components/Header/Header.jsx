@@ -97,6 +97,7 @@ export default function Header() {
               </li>
             </ul>
           </div>
+          
         </div>
 
         <div className={`${isMenuOpen ? 'block' : 'hidden'} lg:hidden w-full`}>
@@ -143,6 +144,7 @@ export default function Header() {
             </li>
           </ul>
         </div>
+
       </nav>
     </header>
   );

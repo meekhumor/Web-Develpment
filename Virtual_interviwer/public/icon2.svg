@@ -1,0 +1,21 @@
+<svg width="98px" height="123px" viewBox="0 0 98 123" fill="none" xmlns="http://www.w3.org/2000/svg" transform="rotate(0) scale(1, 1)">
+  <g id="iconfinder___library_book_shelf_archive_3371910 copy 6">
+    <circle id="Mask" cx="48.906" cy="73.7819" r="48.906" fill="#edeff3" />
+    <g id="Mask group">
+      <mask id="mask0_1_651" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="98" height="123">
+        <path id="Mask_2" d="M97.812 73.782C97.812 100.792 75.916 122.688 48.906 122.688C21.896 122.688 0 100.792 0 73.782C0 46.7719 21.896 0 48.906 0C75.916 0 97.812 46.7719 97.812 73.782Z" fill="#edeff3" />
+      </mask>
+      <g mask="url(#mask0_1_651)">
+        <g id="iconfinder__cam_camera_webcam_5111213">
+          <g id="Path" style="mix-blend-mode:multiply">
+            <path d="M80.6453 92.8711L49.2446 75.3591L17.8438 92.8711C14.8245 94.4814 13.0129 97.5007 13.0129 100.923V119.941C13.0129 121.954 14.6232 123.564 16.6361 123.564H81.853C83.8659 123.564 85.4762 121.954 85.4762 119.941V100.923C85.4762 97.5007 83.6646 94.4814 80.6453 92.8711Z" fill="#dbe2ea" />
+          </g>
+          <circle id="Oval" cx="49.2446" cy="55.2441" r="36" fill="#32acfc" />
+          <path id="Path_2" d="M81.2446 55.2441H17.2446" stroke="#ffffff" stroke-width="8.05147" stroke-linecap="square" stroke-linejoin="round" />
+          <circle id="Oval_2" cx="49.2446" cy="55.2441" r="22.1415" fill="#ffffff" />
+          <path id="Path_3" d="M44.2123 43.3682C49.2445 41.1541 55.4844 42.3618 59.3088 47.1927C61.7243 50.0107 62.5294 54.0364 61.9256 57.6596C60.3153 66.3149 51.0561 70.3406 43.8097 66.9188C37.3686 63.8995 34.7518 56.0493 37.7711 49.8094C41.5956 51.0171 45.42 47.3939 44.2123 43.3682Z" fill="#000f38" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

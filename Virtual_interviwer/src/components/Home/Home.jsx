@@ -3,6 +3,7 @@ import LottieAnimation from '../Lottie';
 import animation1 from './animations/choose.json';
 import animation2 from './animations/interview.json';
 import animation3 from './animations/analysis.json';
+import Card2 from './Card2';
 
 const steps = [
     {
@@ -20,8 +21,36 @@ const steps = [
         description: 'After the interview, receive a detailed analysis of your overall performance and feedback based on it',
         animation: animation3,
     }
-
 ]
+
+const features = [
+    {
+        title: 'Unlimited practice, from anywhere',
+        description: 'Take unlimited online mock interviews whenever you want, wherever you want.',
+        image: 'icon1.svg'
+    },
+    {
+        title: 'Real interview pressure, real results',
+        description: 'We record your responses to create realistic interview pressure.',
+        image: 'icon2.svg'
+    },
+    {
+        title: 'Self-review for self-improvement',
+        description: 'Know exactly how you have performed and refine your approach to nail the interview.',
+        image: 'icon3.svg'
+    },
+    {
+        title: 'Tailor-made interview questions',
+        description: 'Personalize your prep with custom questions tailored to your job roles and industries.',
+        image: 'icon4.svg'
+    },
+    {
+        title: 'Level up your skills',
+        description: 'Access curated resources to continuously improve your interview skills and stay ahead.',
+        image: 'icon5.svg'
+    }
+]
+
 export default function Home() {
     return (
         <div className="mx-auto w-full max-w-8xl">
@@ -36,22 +65,45 @@ export default function Home() {
                 </div>
             </div>  
 
-            <div className="flex flex-col items-center bg-black min-h-screen py-10">
-                {steps.map((step, index) => (
-                    <div key={index} className={`flex flex-col md:flex-row items-center ${index % 2 === 0 ? 'md:flex-row-reverse' : ''} mb-10`}>
-                        <div className="md:w-1/2">
-                            <LottieAnimation animationData={step.animation} />
+
+            <div className='scale-125 my-64'>
+                <div className='mt-16 text-center'>
+                    <p className='text-gray-500 text-sm'>3 SIMPLE STEPS</p>
+                    <h1 className='text-white font-bold text-3xl'>How does it works?</h1>
+                </div>
+                <div className="flex flex-col items-center bg-black min-h-screen py-10">
+                    {steps.map((step, index) => (
+                        <div key={index} className={`flex flex-col md:flex-row items-center ${index % 2 === 0 ? 'md:flex-row-reverse' : ''} mb-10`}>
+                            <div className="md:w-1/2 mx-6">
+                                <LottieAnimation animationData={step.animation} />
+                            </div>
+                            <div className="md:w-1/2 mx-6">
+                                <Card1
+                                    number={index + 1}
+                                    title={step.title}
+                                    description={step.description}
+                                />
+                            </div>
                         </div>
-                        <div className="md:w-1/2">
-                            <Card1
-                                number={index + 1}
-                                title={step.title}
-                                description={step.description}
-                            />
+                    ))}
+                </div>
+                <div className="flex flex-wrap justify-center lg:max-w-5xl m-auto gap-6 md:max-w-3xl sm:max-w-sm">
+                    {features.map((step, index) => (
+                        <div key={index}>
+                        <Card2 
+                            title={step.title}
+                            description={step.description}
+                            image={step.image}
+                        />
                         </div>
-                    </div>
-                ))}
+                    ))}
+                </div>
+
             </div>
+            
+            
+
+
         </div>
     );
 }
