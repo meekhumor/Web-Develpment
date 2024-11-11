@@ -64,16 +64,15 @@ export default function Home() {
                     </div>
                 </div>
             </div>  
-
-
-            <div className='scale-125 my-64'>
+            <div className='scale-100 mb-12'>
+                {/* How it works section */}
                 <div className='mt-16 text-center'>
                     <p className='text-gray-500 text-sm'>3 SIMPLE STEPS</p>
                     <h1 className='text-white font-bold text-3xl'>How does it works?</h1>
                 </div>
                 <div className="flex flex-col items-center bg-black min-h-screen py-10">
                     {steps.map((step, index) => (
-                        <div key={index} className={`flex flex-col md:flex-row items-center ${index % 2 === 0 ? 'md:flex-row-reverse' : ''} mb-10`}>
+                        <div key={index} className={`flex flex-col sm:flex-row items-center ${index % 2 === 0 ? 'sm:flex-row-reverse' : ''} mb-10`}>
                             <div className="md:w-1/2 mx-6">
                                 <LottieAnimation animationData={step.animation} />
                             </div>
@@ -87,7 +86,12 @@ export default function Home() {
                         </div>
                     ))}
                 </div>
-                <div className="flex flex-wrap justify-center lg:max-w-5xl m-auto gap-6 md:max-w-3xl sm:max-w-sm">
+                
+                {/* Features section */}
+                <div className='flex justify-center'>
+                    <h1 className='text-white text-center font-bold text-3xl max-w-xl mb-14'>Achieve interview success with our AI-powered <span className='text-blue1'>practice tools</span></h1>
+                </div>
+                <div className="flex flex-wrap justify-center lg:max-w-5xl m-auto gap-6 md:max-w-3xl sm:max-w-xl">
                     {features.map((step, index) => (
                         <div key={index}>
                         <Card2 
@@ -100,10 +104,6 @@ export default function Home() {
                 </div>
 
             </div>
-            
-            
-
-
         </div>
     );
 }

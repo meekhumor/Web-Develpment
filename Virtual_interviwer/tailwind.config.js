@@ -16,6 +16,9 @@ export default {
       width: { 
         '68': '17rem',
       },
+      scale: { 
+        '115': '1.15',
+      },
     },
   },
   plugins: [],
