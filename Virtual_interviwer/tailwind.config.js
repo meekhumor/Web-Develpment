@@ -15,9 +15,10 @@ export default {
       },
       width: { 
         '68': '17rem',
+        '90': '40rem',
       },
-      scale: { 
-        '115': '1.15',
+      fontSize: { 
+        'xxs': '0.625rem', 
       },
     },
   },
