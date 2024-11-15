@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 
-export default function Header() {
+export default function HomeHeader() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -22,7 +22,7 @@ export default function Header() {
               onClick={toggleMenu}
             >
               <svg
-                className="w-6 h-6"
+                className="w-8 h-8"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"

@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import CardCat from "./CardCat.jsx";
 
 const category = [
@@ -53,10 +52,6 @@ const category = [
 ];
 
 export default function Category() {
-  const [isToggled, setIsToggled] = useState(false);
-  const handleToggle = () => {
-    setIsToggled(!isToggled);
-  };
 
   return (
     <div className="mx-auto w-full max-w-10xl">
