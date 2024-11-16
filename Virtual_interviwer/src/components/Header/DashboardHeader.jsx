@@ -30,7 +30,7 @@ export default function DashboardHeader() {
 
         </div>
 
-        <div className={`bg-darkblue ${isMenuOpen ? 'block' : 'hidden'} h-screen w-1/4 z-10 absolute top-0 left-0`}>
+        <div className={`bg-black2 ${isMenuOpen ? 'block' : 'hidden'} h-screen w-1/4 z-10 absolute top-0 left-0`}>
           <div className="flex justify-end mt-4 mr-4">
             <img src="/close.svg" className="`${isMenuOpen ? 'block' : 'hidden'}` flex w-8 h-8 opacity-75 cursor-pointer" alt="" onClick={toggleMenu} />
           </div>

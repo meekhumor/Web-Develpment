@@ -9,7 +9,7 @@ export default {
         darkblue: "#073757",
         teal: "#20c997",
         black1: "#1B262C",
-        black2: "#021526",
+        black2: "#0F1D26",
         
       },
       fontWeight: {

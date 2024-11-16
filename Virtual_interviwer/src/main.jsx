@@ -11,6 +11,9 @@ import Permission from './components/Permission/Permission.jsx';
 import Register from './components/Register/Register.jsx';
 import Camera_Preview1 from './components/Camera_Preview/Camera_Preview1.jsx';
 import Camera_Preview2 from './components/Camera_Preview/Camera_Preview2.jsx';
+import Resume from './components/Resume/Resume.jsx';
+import Review_Interview from './components/Review_Interview/Review_Interview.jsx';
+import Analysis from './components/Review_Interview/Analysis.jsx';
 
 
 const router = createBrowserRouter(
@@ -23,6 +26,9 @@ const router = createBrowserRouter(
       <Route path="register" element={<Register />} />
       <Route path="cam-preview1" element={<Camera_Preview1 />} />
       <Route path="cam-preview2" element={<Camera_Preview2 />} />
+      <Route path="resume" element={<Resume />} />
+      <Route path="review-interview" element={<Review_Interview />} />
+      <Route path="analysis" element={<Analysis />} />
     </Route>
   )
 )

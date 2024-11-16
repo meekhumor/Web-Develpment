@@ -1,8 +1,8 @@
 import Card1 from './Card1';
 import LottieAnimation from '../Lottie';
-import animation1 from './animations/choose.json';
-import animation2 from './animations/interview.json';
-import animation3 from './animations/analysis.json';
+import animation1 from './animations/analysis.json';
+import animation2 from './animations/choose.json';
+import animation3 from './animations/interview.json';
 import Card2 from './Card2';
 
 const steps = [
@@ -64,6 +64,7 @@ export default function Home() {
                     </div>
                 </div>
             </div>  
+            
             <div className='scale-100 mb-12'>
                 {/* How it works section */}
                 <div className='mt-16 text-center'>
