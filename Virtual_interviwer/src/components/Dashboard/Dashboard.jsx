@@ -23,7 +23,7 @@ const interview = [
 
 export default function Dashboard() {
     return (
-        <div className="mx-auto w-full max-w-10xl">
+        <div className="mx-auto w-full max-w-10xl mb-36">
             <div className='flex justify-center items-center'>
                 <div className='flex flex-col mt-12 mb-5' id="hero">
                     <h1 className='text-white text-2xl text-center'>Simulate an Interview</h1>
